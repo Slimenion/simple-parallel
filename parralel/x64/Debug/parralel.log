@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (parralel.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+parallel.obj : error LNK2005: "double __cdecl I(double,double,int,double)" (?I@@YANNNHN@Z) уже определен в lineal.obj
+parallel.obj : error LNK2005: "double __cdecl f(double)" (?f@@YANN@Z) уже определен в lineal.obj
+parallel.obj : error LNK2005: main уже определен в lineal.obj
+C:\Users\mrsli\source\repos\parralel\x64\Debug\parallel.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
